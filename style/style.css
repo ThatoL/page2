@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    grid-template-areas:
+    'nav nav'
+    'pic about'
+    'contact-me quote'
+    'footer footer';
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    grid-area: nav;
+   
+}
+
+
+.img-container {
+    grid-area: pic;
+}
+
+.about-me {
+    grid-area: about;
+}
+
+.contact-container {
+    grid-area: contact-me;
+}
+
+.quote {
+    grid-area: quote;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
