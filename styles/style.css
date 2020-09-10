@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: rgb(226, 226, 219);
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  .header-container {
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    
+  }
+
+  .logo-box {
+    border: 4px solid black;
+    width: 40px;
+    height: 40px;
+    background: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+      
+  }
+  
+  .nav-container {
+    font-size: 20px;
+    
+  }
+  
+  .nav-container ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-container ul li {
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .nav-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .logo-box h3 {
+    padding-top: 25%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .banner {
+    background: black;
+    background-image: url("https://images.unsplash.com/photo-1519408469771-2586093c3f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-position: left top;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+
+  .banner-text {
+    font-weight: 900;
+    font-size: 150%;
+    line-height: 300%;
+  }
+  
+  .contact-btn {
+    background: #24478f;
+    padding: 10px;
+    border-radius: 25px;
+  
+  }
+  
+  .contact-btn > a {
+    color: lightgray;
+    text-decoration: none;
+  }
+
+
+  .hero-intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-column-gap: 5px;
+  }
+
+  .hero-quote {
+      padding: 5%;
+      background: rgb(255, 255, 255);
+  }
+
+  .hero-quote h2 {
+      padding: 10%;
+      padding: 10%;
+        font-weight: 900;
+        font-size: 40px;
+  }
+
+  .hero-quote p {
+      padding: 10%;
+  }
+  
+  .hero-section {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  
+  .hero-img {
+    text-align: center;
+    background: rgb(110, 104, 104);
+      
+  }
+
+  .hero-section img {
+    margin-top: 5px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10%;
+    border-radius: 15%;
+  }
+  
+  .hero-description {
+    background: rgb(187, 179, 179);
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 2fr 200px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        'about about about'
+        'goals skills education'
+    
+    ;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    
+  }
+
+  #about {
+      grid-area: about;
+      background: rgb(218, 212, 212);
+      padding: 5px;
+  }
+  
+  .goals {
+    background: white;
+    grid-area: goals;
+    padding: 5%;
+    line-height: 200%;
+    
+      
+  }
+  
+  .skills {
+    background: grey;
+    grid-area: skills;
+    padding: 5%;
+    
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+  }
+
+  .skills-container p {
+      margin-right: 15px;
+  }
+  
+  .education {
+    background: lightgray;
+    grid-area: education;
+    padding: 5%;
+    
+  }
+
+  .education ul {
+      list-style: none;
+  }
+
+  .education ul li {
+      margin: 3px;
+      margin-bottom: 5px;
+      
+  }
+
+  .footer-container {
+      background: rgb(218, 212, 212);
+      display: flex;
+      height: 70px;
+      align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container img {
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      
+  }
+
+  .footer-icons {
+      display: flex;
+  }
+
+
+
+  
+
